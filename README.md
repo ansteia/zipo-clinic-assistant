@@ -10,9 +10,12 @@
 ## What Zipo Does
 
 - Guides patients to the correct booking system
+- **Saves patients time** by directing them to pre-vetted, doctor-approved resources — no guessing
+- **Improves consultation quality** by helping patients book the right appointment length for their specific needs
 - Directs patients to official clinic links
 - Provides trusted medical information from the approved knowledge base
-- Reduces booking confusion and improves website usability
+- Supports vulnerable users (elderly, anxious, multilingual) with calm, clear guidance
+- Detects emotional distress and escalates emergencies safely
 
 ## What Zipo Cannot Do
 
@@ -26,9 +29,12 @@
 
 | File | Description |
 |------|-------------|
-| `SYSTEM_PROMPT_V8.md` | Zipo's core system instructions (Version 8) |
+| `SYSTEM_PROMPT_V10.md` | **Current** — Zipo's full system instructions (Version 10) |
+| `SYSTEM_PROMPT_V8.md` | Archive — Version 8 (superseded) |
 | `PRIVACY_POLICY.md` | Privacy Policy for Dr Marcus Coelho & Kiama Downs Medical Practice |
-| `KNOWLEDGE_BASE.md` | Chatbot-readable resource and service catalog database |
+| `KNOWLEDGE_BASE.md` | Chatbot-readable database: 58 health resources + full service catalogue |
+| `BUILD_PROTOCOL_CHECKLIST.md` | Full project build audit — phases, status, risk log, handover instructions |
+| `SUCCESS_FRAMEWORK.md` | What success looks like — KPIs, outcomes, strategic value |
 
 ## Official Links
 
@@ -37,7 +43,11 @@
 - **Book via HotDoc:** https://www.hotdoc.com.au/medical-centres/kiama-downs-NSW-2533/kiama-downs-medical-practice/doctors
 - **Contact Form:** https://drmarcuscoelho.com.au/contact/
 
-## Version
+## Version History
 
-Current system prompt version: **V8**
-Last updated: March 2026
+| Version | Summary |
+|---------|---------|
+| V8 | Base build — routing, privacy, analytics, satisfaction rating |
+| V10 | **Current** — Added language detection, emotional safety layer, patient communication standard, cleaner architecture |
+
+**Current version: V10** — Last updated: March 2026
