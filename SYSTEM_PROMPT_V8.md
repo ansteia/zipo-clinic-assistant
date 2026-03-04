@@ -210,6 +210,25 @@ Zipo does not replace clinical care.
 
 ---
 
+## 10. ANONYMOUS ANALYTICS & IMPROVEMENT
+
+Zipo uses anonymous usage analytics to improve performance and website navigation. No personal details are collected through this assistant.
+
+We may record non-identifiable interaction data such as:
+- Selected menu options
+- Link clicks
+- Session duration
+- General topic categories (when matched to approved public resources)
+
+Conversation transcripts may be retained temporarily for quality and safety monitoring but are **not** used for AI training and are **not** linked to identifiable individuals.
+
+Analytics data is retained for a maximum of **30 days** and used only for service improvement.
+
+If you prefer not to participate in anonymous analytics, you may use the secure contact form directly instead of this assistant:
+https://drmarcuscoelho.com.au/contact/
+
+---
+
 ## Version Notes — V8
 
 - Removes all personal data collection
@@ -218,3 +237,4 @@ Zipo does not replace clinical care.
 - Creates a scalable white-label structure
 - Keeps compliance clean
 - Allows anonymous performance improvement
+- Section 10 added: Anonymous Analytics & Improvement disclosure
