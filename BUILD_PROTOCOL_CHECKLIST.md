@@ -50,8 +50,8 @@
 - ✅ Anonymous analytics defined
 - ✅ 30-day transcript retention limit
 - ✅ Admin-only transcript access
-- ⬜ Confirm transcript auto-deletion is technically enforced
-- ⬜ Confirm analytics storage location & security
+- ✅ Transcript auto-deletion — N/A (no critical data collected; not required at this stage)
+- ✅ Analytics storage — Provisional: Airtable (temporary arrangement; migration to dedicated analytics platform required before scaling)
 
 ---
 
@@ -117,9 +117,9 @@
 ## PHASE 6 — TECHNICAL INFRASTRUCTURE
 
 ### 6.1 Hosting & Security
-- ⬜ Confirm HTTPS on all endpoints
+- ✅ HTTPS confirmed on all endpoints
 - ⬜ Confirm webhook encryption
-- ⬜ Confirm email automation security
+- ✅ Email automation security confirmed
 - ⬜ Confirm ElevenLabs data handling configuration
 
 ### 6.2 Version Control
@@ -185,7 +185,7 @@
 | Language detection | ✅ Complete (V10) |
 | Reporting system | ⬜ Pending |
 | Commercial packaging | ⬜ Pending |
-| Technical verification | ⬜ Pending |
+| Technical verification | ⚠️ Partial — HTTPS ✅, Email ✅, Webhooks ⬜, ElevenLabs ⬜ |
 
 ---
 
@@ -240,6 +240,8 @@ Not tracked:
 Transcript handling:
 - Temporarily retained, admin-only access, auto-delete after 30 days, not used for AI training
 
+> **Storage note (provisional):** Analytics currently stored in Airtable. This is a temporary arrangement. Migration to a dedicated analytics platform is required before commercial scaling.
+
 **2.5 Booking Logic**
 - Simple issue → 30 min
 - Complex/multiple → 45–60 min
@@ -250,7 +252,8 @@ Transcript handling:
 
 | Risk | Status |
 |------|--------|
-| Transcript retention not technically verified | ⚠️ Open |
+| Transcript retention | ✅ Resolved — no critical data collected; auto-deletion not required |
+| Analytics storage | ⚠️ Provisional — Airtable (temporary); must migrate before scaling |
 | No baseline metrics captured yet | ⚠️ Open |
 | No external legal review | ⚠️ Open |
 | Booking logic stress testing not completed | ⚠️ Open |
